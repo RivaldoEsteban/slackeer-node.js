@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.chat-container {
+  border: 1px solid red;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 1rem 0;
+  padding: 12px 24px;
+}
+
+button {
+  width: 100%;
+  padding: 12px 24px;
+}
+
+#actions p {
+  padding: 14px 0;
+  margin: 0 20px;
+  border-bottom: 1px solid red;
+  color: royalblue;
+}
+
+#output p {
+  padding: 14px 0;
+  margin: 0 20px;
+  color: green;
+}
